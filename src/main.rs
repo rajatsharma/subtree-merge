@@ -14,7 +14,7 @@ fn main() -> Result<()> {
                 .try_into()
                 .expect("Cannot convert to array")
         } else {
-            ["master", &*arg]
+            [&*arg, "master"]
         };
 
         let output = Command::new("git")
