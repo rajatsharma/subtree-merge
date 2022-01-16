@@ -1,0 +1,11 @@
+{
+  "name": "subtree-merge",
+  "version": "1.0.0",
+  "repository": "https://github.com/rajatsharma/subtree-merge",
+  "author": "Rajat Sharma <lunasunkaiser@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "install": "stack install",
+    "uninstall": "rm -rf `stack path --local-bin`/subtree-merge"
+  }
+}
