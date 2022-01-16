@@ -2,6 +2,12 @@
 
 > Merge multiple repos to one with histories using subtrees
 
+## Install
+
+```sh
+yarn global add https://github.com/rajatsharma/subtree-merge
+```
+
 ## Usage
 
 ```sh
