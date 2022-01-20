@@ -15,3 +15,7 @@ subtree-merge repo1 repo2 repo3@branch
 ```
 
 Right now it only supports my remotes ie `github.com/rajatsharma/{repo_name}`.
+
+## License
+
+[![BSD 3-Clause](https://img.shields.io/badge/-BSD3-black?style=flat-square)](/LICENSE)
