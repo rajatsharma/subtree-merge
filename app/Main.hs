@@ -8,4 +8,4 @@ main :: IO ()
 main = do
   args <- getArgs
   forM_ args $ \arg -> do
-    callProcess "git" ["subtree", "add", "--prefix=" ++ arg, "https://github.com/rajatsharma/" ++ arg, "master"]
+    callProcess "git" ["subtree", "add", "--prefix=" ++ arg, "git@github.com:rajatsharma/" ++ arg ++ ".git", "master"]
